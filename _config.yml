@@ -1,0 +1,34 @@
+# Site settings
+title: Adrien Clerbois' blog
+description: Lead Designer @ Ingenico ePayments, Freelance @ AClerbois, Microsoft MVP Developer Technologies
+email: adrien.clerbois@outlook.com
+baseurl: /
+url: "http://aclerbois.github.io" # the base hostname & protocol for your site
+#favicon
+favicon: /favicon.png
+
+#feed
+feedburner_username: aclerbois
+#twitter
+twitter_username: aclerbois
+github_username:  aclerbois
+
+#linkedin
+linkedin_username: aclerbois
+
+#google analytics
+google_analytics_id : UA-53386152-2
+#gplus
+gplus_username: 101893920934936418705
+
+#fb_username
+fb_username: adrien.clerbois
+
+#permalink /blog/2014/11/11/this-is-a-sample-post
+permalink: /blog/:year/:month/:day/:title
+# Build settings
+markdown: kramdown
+
+#Disqus configuration
+disqus_short_name: aclerbois-blog
+disqus_show_comment_count: true
