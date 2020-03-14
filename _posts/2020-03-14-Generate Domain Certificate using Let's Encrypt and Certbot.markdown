@@ -33,7 +33,7 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 ```
 
-![Demo of Update System and register PPA](/img/Update%20and%20install%20ppa.gif)
+![Demo of Update System and register PPA](/images/update-and-install-ppa.gif)
 
 ### Install Certbot
 
@@ -43,7 +43,7 @@ Once the PPA is referenced, you can install Certbot :
 sudo apt-get install certbot
 ```
 
-![Demo of install certbot](/img/Update%20and%20install%20ppa.gif)
+![Demo of install certbot](/images/update-and-install-ppa.gif)
 
 ## Creating public and private keys
 
@@ -66,7 +66,7 @@ The ```manual``` argument is a plugin. It can use either the http or the dns cha
 
 You will receive instruction to add a file into the .well-know
 
-![Demo of install certbot](/img/register%20domain.gif)
+![Demo of install certbot](/images/register-domain.gif)
 
 When the pems are generated, you can clean you file inside ```.well-known``` folder
 
@@ -105,8 +105,8 @@ cp bundle.pfx /mnt/d/Hack/
 
 You need to add a website with a  pricing tiers with at least B1. This supports custom domains and the use of custom certificates.
 
-![Pricing tiers](/img/PricingTiersSsl.png)
+![Pricing tiers](/images/pricing-tiers-ssl.png)
 
 In order to associate your certificate to Azure, I made this step-by-step animation to show you how to do it : 
 
-![Install certificate on Azure](/img/Add%20certificate%20to%20Azure.gif)
+![Install certificate on Azure](/images/add-certificate-to-azure.gif)
