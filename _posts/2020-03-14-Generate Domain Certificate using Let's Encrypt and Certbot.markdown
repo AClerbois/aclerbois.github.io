@@ -70,7 +70,7 @@ You will receive instruction to add a file into the .well-know
 
 When the pems are generated, you can clean you file inside ```.well-known``` folder
 
-> If you are using an Asp.net core web site in version 3.1 or less, you must tell the middleware responsible for the static files to consider the .well-known folder. Here's an article that gives you how to do this : [Include .well-known folder in your asp.net core project](2020-03-14-Resolving%20404%20on%20well-known%20file.markdown)
+> If you are using an Asp.net core web site in version 3.1 or less, you must tell the middleware responsible for the static files to consider the .well-known folder. Here's an article that gives you how to do this : [Include .well-known folder in your asp.net core project](/blog/2020/03/14/Include-.well-known-folder-in-your-asp.net-core-project)
 
 ## Create the PFX certificate file 
 
