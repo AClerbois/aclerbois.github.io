@@ -12,7 +12,8 @@ comments: true
 It can sometimes be complicated to generate a certificate. Even if Let's Encrypt allows us to get free certificates that can be renewed every three months. It is sometimes tedious to do this. 
 
 
-A friend (@) introduced me to a handy tool to create Let's Encrypt certificates. The tool is called [Certbot](https://certbot.eff.org/).
+A friend ([@pgrasseels](https://twitter.com/pgrasseels)) introduced me to a handy tool to create Let's Encrypt certificates. The tool is called [Certbot](https://certbot.eff.org/).
+<!-- more -->
 
 It is entirely free, but to thank the developers, a small [donation](https://supporters.eff.org/donate/support-work-on-certbot) will always make them happy.
 
@@ -32,7 +33,7 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 ```
 
-![Demo of Update System and register PPA](../img/Update%20and%20install%20ppa.gif)
+![Demo of Update System and register PPA](/img/Update%20and%20install%20ppa.gif)
 
 ### Install Certbot
 
@@ -42,7 +43,7 @@ Once the PPA is referenced, you can install Certbot :
 sudo apt-get install certbot
 ```
 
-![Demo of install certbot](../img/Update%20and%20install%20ppa.gif)
+![Demo of install certbot](/img/Update%20and%20install%20ppa.gif)
 
 ## Creating public and private keys
 
@@ -65,7 +66,7 @@ The ```manual``` argument is a plugin. It can use either the http or the dns cha
 
 You will receive instruction to add a file into the .well-know
 
-![Demo of install certbot](../img/register%20domain.gif)
+![Demo of install certbot](/img/register%20domain.gif)
 
 When the pems are generated, you can clean you file inside ```.well-known``` folder
 
@@ -104,8 +105,8 @@ cp bundle.pfx /mnt/d/Hack/
 
 You need to add a website with a  pricing tiers with at least B1. This supports custom domains and the use of custom certificates.
 
-![Pricing tiers](../img/pricingtiersssl.png)
+![Pricing tiers](/img/PricingTiersSsl.png)
 
 In order to associate your certificate to Azure, I made this step-by-step animation to show you how to do it : 
 
-![Install certificate on Azure](../img/add%20certificate%20to%20azure.gif)
+![Install certificate on Azure](/img/Add%20certificate%20to%20Azure.gif)
