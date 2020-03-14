@@ -43,7 +43,7 @@ Once the PPA is referenced, you can install Certbot :
 sudo apt-get install certbot
 ```
 
-![Demo of install certbot](/images/update-and-install-ppa.gif)
+![Demo of install certbot](/images/install-certbot.gif)
 
 ## Creating public and private keys
 
