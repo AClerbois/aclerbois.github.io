@@ -12,7 +12,10 @@ comments: true
 
 In this article we will discuss the possibility of adding multilingual capability to your Blazor Assembly application.
 
+<!-- more -->
+
 [Microsoft's documentation](https://docs.microsoft.com/en-us/aspnet/core/blazor/globalization-localization?view=aspnetcore-3.1#blazor-webassembly) tells us that the language used in your application is based on the user's language preference in the browser.
+
 
 > This information is returned by the Javascript function : 
 > ```js
