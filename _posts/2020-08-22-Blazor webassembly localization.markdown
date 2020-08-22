@@ -8,7 +8,6 @@ github_repo_username: aclerbois
 github_repo : aclerbois
 comments: true
 ---
-# [Blazor WebAssembly] Embedding multilingual capabilities in your Blazor WebAssembly applications
 
 In this article we will discuss the possibility of adding multilingual capability to your Blazor Assembly application.
 
