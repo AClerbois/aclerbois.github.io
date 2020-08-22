@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Blazor WebAssembly] Embedding multilingual capabilities in your Blazor WebAssembly applications"
-date:   2020-08-22 16:00:00
+date:   2020-08-22 00:00:00
 categories: blazor, webassembly
 author: AClerbois
 github_repo_username: aclerbois
