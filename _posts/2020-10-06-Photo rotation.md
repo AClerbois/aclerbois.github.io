@@ -58,10 +58,12 @@ foreach (var propertyItem in image.PropertyItems)
 }
 ```
 
-I discover the existence of the EXIF : 
+I discover the existence of the EXIF (thank you Communities): 
 
 > Exchangeable image file format (officially Exif, according to JEIDA/JEITA/CIPA specifications) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.
 Source : [Wikipedia](https://en.wikipedia.org/wiki/Exif)
+
+---
 
 The site [exiftoolg.org](https://exiftool.org/TagNames/EXIF.html) lists the standards and more specifically the content I am interested in, namely guidance (274).
 
