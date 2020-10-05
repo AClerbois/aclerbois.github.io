@@ -25,17 +25,17 @@ But a few days ago the photographer discovered portrait photography and the clie
 I started off naively with a : 
 
 ```csharp
-    // Object from library : [Image.FromFile method](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.image.fromfile?view=dotnet-plat-ext-3.1&WT.mc_id=WD-MVP-5001937)
-   var image = Image.FromFile("best-picture-ever.jpg");
+// Object from library : [Image.FromFile method](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.image.fromfile?view=dotnet-plat-ext-3.1&WT.mc_id=WD-MVP-5001937)
+var image = Image.FromFile("best-picture-ever.jpg");
 ```
 
 And make an extrapolation to determine if the picture is portrait or not by : 
 
 
 ```csharp
-    public bool IsPortrait(Image image){
-        return image.Height > image.Width;
-    }
+public bool IsPortrait(Image image){
+    return image.Height > image.Width;
+}
 ```
 
 Happy with my long seconds of programming, I decided to test. I know how to test it is doubtful.
@@ -51,7 +51,7 @@ Looking for a little bit, I thought, how can I get the size that is in the metas
 By scraping a little in the image properties 
 
 ```csharp
-var image = Image.FromFile("");
+var image = Image.FromFile("photo.jpg");
 foreach (var propertyItem in image.PropertyItems)
 {
     // read properties
